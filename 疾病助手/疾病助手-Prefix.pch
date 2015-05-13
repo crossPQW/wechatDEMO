@@ -1,0 +1,47 @@
+//
+//  疾病助手-Prefix.pch
+//  疾病助手
+//
+//  Created by linyibin on 14/12/18.
+//  Copyright (c) 2014年 NXAristotle. All rights reserved.
+//
+
+#ifndef __________Prefix_pch
+#define __________Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 快速生成颜色
+
+#define NXCustomColor(r , g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0  blue:(b)/255.0  alpha:(a)/255.0 ]
+
+
+// 随机色
+#define  NXRandomColor   NXCustomColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+// 自定义Log
+#ifdef DEBUG
+#define NXLog(...)  NSLog(__VA_ARGS__)
+#else
+#define NXLog(...)
+#endif
+
+//屏幕的宽度
+#define screenWidth  [UIScreen mainScreen].bounds.size.width
+#define screenHight  [UIScreen mainScreen].bounds.size.height
+
+// 判断是否是大于iOS7.0版本
+#define iOS7 ([UIDevice currentDevice].systemVersion.doubleValue >= 7.0)
+
+
+// 判断是否是大于iOS8.0版本
+#define iOS8 ([UIDevice currentDevice].systemVersion.doubleValue >= 8.0)
+
+//  快速获取&设置fame
+#import "UIView+NX.h"
+//  自定义frame
+#import "UIBarButtonItem+NX.h"  
+//  通过16进制设置颜色
+#import "UIColor+HexColor.h"
+#endif
