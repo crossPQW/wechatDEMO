@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		38BC6BDA1B01F3E700BA68B4 /* SHToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BC6BD91B01F3E700BA68B4 /* SHToolView.m */; };
+		38E73F2C1B02D9DC0078F2B0 /* BE873540-9EB1-41B7-A347-FEDD7C3F2DC1.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E73F2A1B02D9DC0078F2B0 /* BE873540-9EB1-41B7-A347-FEDD7C3F2DC1.png */; };
+		38E73F2D1B02D9DC0078F2B0 /* A55C737C-F2DC-46B6-A4C5-CAF37E72CB4C.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E73F2B1B02D9DC0078F2B0 /* A55C737C-F2DC-46B6-A4C5-CAF37E72CB4C.png */; };
 		38EA28D11B00BFCF0036811D /* SDChatListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA28CF1B00BFCF0036811D /* SDChatListTableViewCell.m */; };
 		38EA28D21B00BFCF0036811D /* SDChatListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38EA28D01B00BFCF0036811D /* SDChatListTableViewCell.xib */; };
 		38EA31DB1B017EF00051D551 /* SHChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA31DA1B017EF00051D551 /* SHChatViewController.m */; };
@@ -68,6 +70,8 @@
 		20AB4B7B6B448A3BAD0BCAF9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		38BC6BD81B01F3E700BA68B4 /* SHToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHToolView.h; sourceTree = "<group>"; };
 		38BC6BD91B01F3E700BA68B4 /* SHToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHToolView.m; sourceTree = "<group>"; };
+		38E73F2A1B02D9DC0078F2B0 /* BE873540-9EB1-41B7-A347-FEDD7C3F2DC1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BE873540-9EB1-41B7-A347-FEDD7C3F2DC1.png"; sourceTree = "<group>"; };
+		38E73F2B1B02D9DC0078F2B0 /* A55C737C-F2DC-46B6-A4C5-CAF37E72CB4C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A55C737C-F2DC-46B6-A4C5-CAF37E72CB4C.png"; sourceTree = "<group>"; };
 		38EA28CE1B00BFCF0036811D /* SDChatListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDChatListTableViewCell.h; sourceTree = "<group>"; };
 		38EA28CF1B00BFCF0036811D /* SDChatListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDChatListTableViewCell.m; sourceTree = "<group>"; };
 		38EA28D01B00BFCF0036811D /* SDChatListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDChatListTableViewCell.xib; sourceTree = "<group>"; };
@@ -178,6 +182,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38E73F291B02D9D20078F2B0 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				38E73F2A1B02D9DC0078F2B0 /* BE873540-9EB1-41B7-A347-FEDD7C3F2DC1.png */,
+				38E73F2B1B02D9DC0078F2B0 /* A55C737C-F2DC-46B6-A4C5-CAF37E72CB4C.png */,
+			);
+			path = ScreenShot;
+			sourceTree = "<group>";
+		};
 		794328A2782B7048F573DEA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +211,7 @@
 		D22D4FB41A425C0D001073DA = {
 			isa = PBXGroup;
 			children = (
+				38E73F291B02D9D20078F2B0 /* ScreenShot */,
 				D22D4FBF1A425C0D001073DA /* 疾病助手 */,
 				D22D4FD91A425C0D001073DA /* 疾病助手Tests */,
 				D22D4FBE1A425C0D001073DA /* Products */,
@@ -687,9 +701,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E73F2D1B02D9DC0078F2B0 /* A55C737C-F2DC-46B6-A4C5-CAF37E72CB4C.png in Resources */,
 				38EA31EE1B01A6CA0051D551 /* SHToolView.xib in Resources */,
 				38EA31E61B0190440051D551 /* messages.plist in Resources */,
 				D22D4FCE1A425C0D001073DA /* Images.xcassets in Resources */,
+				38E73F2C1B02D9DC0078F2B0 /* BE873540-9EB1-41B7-A347-FEDD7C3F2DC1.png in Resources */,
 				D2CFB2CE1A4918E100F56A70 /* RoomCell.xib in Resources */,
 				38EA28D21B00BFCF0036811D /* SDChatListTableViewCell.xib in Resources */,
 			);
@@ -886,7 +902,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				GCC_PREFIX_HEADER = "/Users/huangshaohua/Desktop/demo/疾病助手/疾病助手-Prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/huangshaohua/GitHub/wechatDemo/疾病助手/疾病助手-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -909,7 +925,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				GCC_PREFIX_HEADER = "/Users/huangshaohua/Desktop/demo/疾病助手/疾病助手-Prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/huangshaohua/GitHub/wechatDemo/疾病助手/疾病助手-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
