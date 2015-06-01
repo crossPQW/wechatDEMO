@@ -79,6 +79,7 @@
         focused = [focused stretchableImageWithLeftCapWidth:focused.size.width * 0.5 topCapHeight:focused.size.height * 0.7];
     }
     [_contentBtn setBackgroundImage:normal forState:UIControlStateNormal];
+    [_contentBtn setBackgroundColor:[UIColor blueColor]];
     [_contentBtn setBackgroundImage:focused forState:UIControlStateHighlighted];
     _contentBtn.frame = messageFrame.contentF;
 

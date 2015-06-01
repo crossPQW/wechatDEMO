@@ -20,7 +20,7 @@
 		38EA31EE1B01A6CA0051D551 /* SHToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38EA31ED1B01A6CA0051D551 /* SHToolView.xib */; };
 		38EA33541B01E22D0051D551 /* IWPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA33511B01E22D0051D551 /* IWPopMenuView.m */; };
 		38EA33551B01E22D0051D551 /* IWTitleMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA33531B01E22D0051D551 /* IWTitleMenuView.m */; };
-		5048147089C811C4B36793AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6088C634A5372BEF16AA707 /* libPods.a */; };
+		77F4574D1E652BC3D9D6F4FB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6088C634A5372BEF16AA707 /* libPods.a */; };
 		D2134BAF1A46A97E00AAA941 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D2134BAE1A46A97E00AAA941 /* UIColor+HexColor.m */; };
 		D22D4FC31A425C0D001073DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22D4FC21A425C0D001073DA /* main.m */; };
 		D22D4FC61A425C0D001073DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D22D4FC51A425C0D001073DA /* AppDelegate.m */; };
@@ -168,7 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5048147089C811C4B36793AB /* libPods.a in Frameworks */,
+				77F4574D1E652BC3D9D6F4FB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -902,6 +902,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: // / (SXHLDFGSR5)";
 				GCC_PREFIX_HEADER = "/Users/huangshaohua/GitHub/wechatDemo/疾病助手/疾病助手-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -925,6 +926,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: // / (SXHLDFGSR5)";
 				GCC_PREFIX_HEADER = "/Users/huangshaohua/GitHub/wechatDemo/疾病助手/疾病助手-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
